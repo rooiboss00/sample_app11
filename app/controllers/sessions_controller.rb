@@ -6,17 +6,17 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by(email: params[:session][:email].downcase)
     if user && user.authenticate(params[:session][:password])
-      login_url
-      redirect_to user
-      # ユーザーログイン後にユーザー情報のページにリダイレクトする
+    login _url
+    redirect_to user  
     else
       flash.now[:danger] = 'Invalid email/password combination'
-      render 'new'
+      #エラー、エラーメッセージを作成する
+    renser 'new'
     end
   end
 
   def destroy
-    log_out
+    log_put
     redirect_to root_url
   end
 end

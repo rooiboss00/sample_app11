@@ -1,7 +1,9 @@
-module SessionsHelper
+require 'test_helper'
 
-  # 渡されたユーザーでログインする
-  def log_in(user)
-    session[:user_id] = user.id
+class SessionsControllerTest < ActionDispatch::IntegrationTest
+
+  test "should get new" do
+    get login_path
+    assert_response :success
   end
 end
