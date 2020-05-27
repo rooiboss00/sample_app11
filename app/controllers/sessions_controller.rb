@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by(email: params[:session][:email].downcase)
     if user && user.authenticate(params[:session][:password])
-      login_url
+      login_url user
       redirect_to user
       # ユーザーログイン後にユーザー情報のページにリダイレクトする
     else
@@ -18,5 +18,6 @@ class SessionsController < ApplicationController
   def destroy
     log_out
     redirect_to root_url
+    assert_not flash.blank?
   end
 end
