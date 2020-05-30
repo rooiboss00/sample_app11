@@ -42,6 +42,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.12, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.3.7, rbenv: 2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-will_paginate (v1.0.0, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.1.4, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.6, rbenv: 2.6.1) [gem]" level="application" />
@@ -53,18 +54,19 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.9.0, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, rbenv: 2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faker (v1.7.3, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.12.2, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.5, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard (v2.16.2, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-compat (v1.2.1, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-minitest (v2.4.4, rbenv: 2.6.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.2, rbenv: 2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.9.5, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.7.0, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.3.1, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.5.0, rbenv: 2.6.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.2.4, rbenv: 2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.2.5, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.0.2, rbenv: 2.6.1) [gem]" level="application" />
@@ -86,7 +88,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.3.0, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v5.1.6, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.1, rbenv: 2.6.1) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, rbenv: 2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.4, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.10.1, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.10.1, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, rbenv: 2.6.1) [gem]" level="application" />
@@ -109,6 +111,7 @@
     <orderEntry type="library" scope="PROVIDED" name="web-console (v3.5.1, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.6.5, rbenv: 2.6.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.4, rbenv: 2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.1.6, rbenv: 2.6.1) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
