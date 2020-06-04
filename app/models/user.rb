@@ -51,7 +51,6 @@ class User < ApplicationRecord
     UserMailer.account_activation(self).deliver_now
   end
 
-
   private
 
   # メールアドレスをすべて小文字にする
